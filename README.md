@@ -27,7 +27,7 @@ Terminy ustalane indywidualnie – wystarczy zgłosić chęć udziału!
 
 ## 🏠 Gdzie?
 
-[Wydział Matematyki i Informatyki, ul. Chopina 12/18, 87-100 Toruń](https://www.mat.umk.pl)
+[Wydział Matematyki i Informatyki](https://www.mat.umk.pl), 🗺️ [ul. Chopina 12/18, 87-100 Toruń](https://maps.app.goo.gl/rzz85BX6bhges3qq6)
 sala F004
 
 ## 🎯 Kogo szukamy?
