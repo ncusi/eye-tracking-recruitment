@@ -11,15 +11,15 @@ Chcemy sprawdzić, jak programiści rozwiązują zadania z pomocą sztucznej int
 
 W trakcie dwóch sesji (każda po 90 minut):
 
-– będziesz programować fragment realistycznego projektu,
-– skorzystasz z AI albo z dokumentacji,
-– monitorujemy Twój proces za pomocą eye trackera i innych czujników (bezinwazyjnie).
+  * będziesz programować fragment realistycznego projektu,
+  * skorzystasz z AI albo z dokumentacji,
+  * monitorujemy Twój proces za pomocą eye trackera i innych czujników (bezinwazyjnie).
 
 ## 💰 Co zyskujesz?
 
-– 150 zł za każdą sesję (łącznie 300 zł),
-– nowa wiedza o swoim stylu pracy,
-– udział w badaniu naukowym nad przyszłością programowania.
+  * 150 zł za każdą sesję (łącznie 300 zł),
+  * nowa wiedza o swoim stylu pracy,
+  * udział w badaniu naukowym nad przyszłością programowania.
 
 ## 📅 Kiedy?
 
@@ -27,8 +27,9 @@ Terminy ustalane indywidualnie – wystarczy zgłosić chęć udziału!
 
 ## 🏠 Gdzie?
 
-[Wydział Matematyki i Informatyki](https://www.mat.umk.pl), 🗺️ [ul. Chopina 12/18, 87-100 Toruń](https://maps.app.goo.gl/rzz85BX6bhges3qq6)
-sala F004
+[Wydział Matematyki i Informatyki](https://www.mat.umk.pl), 
+
+🗺️ [ul. Chopina 12/18, 87-100 Toruń](https://maps.app.goo.gl/rzz85BX6bhges3qq6) sala F004
 
 ## 🎯 Kogo szukamy?
 
