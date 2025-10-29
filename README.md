@@ -33,11 +33,11 @@ Terminy ustalane indywidualnie – wystarczy zgłosić chęć udziału!
 
 ## 🎯 Kogo szukamy?
 
-Osób z znajomością języka Pythona (podstawowa/średnia/zaawansowana).
+Osób ze znajomością języka Python (podstawowa/średnia/zaawansowana).
 
 **Nie musisz być ekspertem!**
 
 ## 📨 Jak się zgłosić?
 
-[Ankieta rekturacyjna](https://docs.google.com/forms/d/e/1FAIpQLSeCk-V4zAWGzhNGf8w0dY1YD-xrJ9xHTWtHAS8uT1Y64gMaDg/viewform?usp=dialog)
-
+[Ankieta rekrutacyjna](https://docs.google.com/forms/d/e/1FAIpQLSeCk-V4zAWGzhNGf8w0dY1YD-xrJ9xHTWtHAS8uT1Y64gMaDg/viewform?usp=dialog)<br>
+https://forms.gle/hapB9a3hJYFLgdbf7
