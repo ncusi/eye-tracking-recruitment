@@ -1,0 +1,67 @@
+% === File: umk.sty ===
+\ProvidesPackage{umk}
+
+% Metropolis base
+\usetheme{metropolis}
+
+% Colors
+\definecolor{UMKDarkBlue}{RGB}{0, 51, 102}
+\definecolor{UMKLightBlue}{RGB}{220, 230, 241}
+\definecolor{UMKAccent}{RGB}{91, 155, 213}
+
+\setbeamercolor{structure}{fg=UMKDarkBlue}
+\setbeamercolor{title}{fg=UMKDarkBlue}
+\setbeamercolor{subtitle}{fg=UMKAccent}
+\setbeamercolor{block title}{bg=UMKDarkBlue, fg=white}
+\setbeamercolor{block body}{bg=UMKLightBlue, fg=black}
+
+% Transparent frametitle and white title text
+\setbeamercolor{frametitle}{bg=, fg=white}
+
+% Required packages
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{etoolbox}
+
+% Remove default white background
+\setbeamercolor{background canvas}{bg=}
+
+% Apply different background on first slide (title), and body on others
+\addtobeamertemplate{background}{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=south west, inner sep=0pt, outer sep=0pt] at (current page.south west) {
+      \ifnum\value{framenumber}=1
+        %\includegraphics[width=\paperwidth,height=\paperheight]{WMiI_UMK_en-titlepage.pdf}%
+      \else
+        \includegraphics[width=\paperwidth,height=\paperheight]{WMiI_UMK_en-body.pdf}%
+      \fi
+    };
+  \end{tikzpicture}%
+}{}
+
+% Customize title page layout: remove orange bar and move elements to bottom-left
+\setbeamertemplate{title page}{%
+  \vspace*{4.5cm}
+  \begin{flushleft}
+    \vfill
+    {\usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle\par}
+    \vspace{0.5em}
+    {\usebeamerfont{author}\usebeamercolor[fg]{author}\insertauthor\par}
+    \vspace{0.5em}
+    {\usebeamerfont{date}\usebeamercolor[fg]{date}\insertdate\par}
+  \end{flushleft}
+  \vspace*{1cm}
+}
+
+% Add new caption style, without "Figure", for photos and the like
+\defbeamertemplate{caption}{simple}
+{%
+  %\vspace*{-5mm}
+  \centering
+  \insertcaption\par
+}
+% Workaround for too new pandoc:
+% https://github.com/Wandmalfarbe/pandoc-latex-template/issues/391
+\newcommand{\pandocbounded}[1]{#1}
